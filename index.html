@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flex Box</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .Cointainer{
+            
+            display: flex;
+            border: 1px solid black;
+            align-content: center;
+            justify-content: center;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            margin: 10px;
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
+    <main>
+        <div class="Cointainer">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </main>
     
 </body>
 </html>
