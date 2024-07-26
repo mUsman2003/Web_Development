@@ -1,11 +1,5 @@
-console.log("Usman")
+let b=document.getElementById("btn")
 
-let a=document.getElementsByClassName("box")
-console.log(a)
-
-document.querySelectorAll(".box").forEach(e=>{e.style.backgroundColor="green"})
-
-a[2].style.backgroundColor="Red"
-document.getElementById("abc").style.backgroundColor="Blue"
-
-console.log(document.getElementsByTagName("div"))
+b.addEventListener("click",()=>{
+    document.querySelector(".box").innerHTML="i got clicked"
+})
