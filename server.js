@@ -1,0 +1,10 @@
+console.log("Hello")
+
+var slugify = require('slugify')
+
+let a=slugify('some string') // some-string
+
+// if you prefer something other than '-' as separator
+console.log(a)
+let b=slugify('some string', '_')  // some_string
+console.log(b)
